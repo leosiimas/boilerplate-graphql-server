@@ -1,0 +1,32 @@
+# Arquivos de build e dependências
+node_modules/
+build/
+dist/
+*.log
+
+# Arquivos específicos do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Variáveis de ambiente locais
+.env.local
+.env
+
+# Arquivos de configuração
+config.js
+config.json
+
+# Cache ou dados temporários
+.cache/
+.tmp/
+.data/
+
+# Arquivos gerados automaticamente
+schema.json
+introspection-result.json
+
+# Logs de erros ou debug
+error.log
+debug.log
